@@ -164,12 +164,11 @@
                                             <!-- BOTÓN GUARDAR -->
                                             <div class="d-grid">
                                                 <button type="submit"
-                                                    class="btn btn-dark btn-lg">Agregar
+                                                    class="btn btn-dark btn-lg" >Agregar
                                                     Producto</button>
                                             </div>
                                         </form>
                                         <!-- FORMULARIO PARA AGREGAR PRODUCTOS -->
-
                                     </div>
                                 </div>
                             </div>
