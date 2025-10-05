@@ -1,0 +1,85 @@
+:root {
+    --vino: #612237;
+    --vino-oscuro: #5a152a;
+    --marfil: #f7f4ed;
+}
+
+h2 {
+    color: #7b3f00;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card i {
+    font-size: 2.5px;
+    margin-bottom: 0.5px;
+}
+
+#valores h6 {
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#valores p {
+    font-size: 0.9rem;
+    color: #6b4a3f;
+}
+
+#historia img {
+    border-radius: 20px;
+    box-shadow: 0 0.5rem 1px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+#historia img:hover {
+    transform: scale(1.03);
+}
+
+#mision-vision .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.section-nosotros {
+    position: relative;
+    background-image:
+            linear-gradient(rgba(97, 34, 55, 0.7),
+            rgba(97, 34, 55, 0.7)),
+            url('https://wallpapers.com/images/featured/bar-c5vakob55hk4alvi.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--marfil);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.section-nosotros h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.section-nosotros p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}

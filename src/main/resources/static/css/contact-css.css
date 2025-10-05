@@ -1,0 +1,39 @@
+:root {
+    --color1: #2c0b17;
+    --color2: #80666e;
+    --color3: #272727;
+    --color4: #ffffff;
+    --color5: #723659af;
+}
+
+.main-texto {
+    background-image:
+        linear-gradient(rgba(66, 39, 61, 0.85),var(--color5)),
+        url('https://blog.borderio.com/wp-content/uploads/2024/06/%C2%BFQue-es-el-vino-fortificado.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-texto h1 {
+    color: var(--color4);
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.main-texto p {
+    color: var(--color4);
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: var(--color1);
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: var(--color2);
+    transform: scale(1.05);
+}

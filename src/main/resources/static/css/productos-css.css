@@ -1,0 +1,214 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+/* Estilos generales */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Títulos */
+.page-title {
+    color: #2c3e50;
+    font-weight: 700;
+    border-left: 5px solid #e74c3c;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.page-subtitle {
+    color: #7f8c8d;
+    font-size: 1.2rem;
+}
+
+.section-title {
+    color: #2c3e50;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: #e74c3c;
+}
+
+/* Tarjetas de promoción */
+.promo-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.promo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.promo-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.promo-text {
+    color: #7f8c8d;
+}
+
+.promo-btn {
+    background-color: #27ae60;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.promo-btn:hover {
+    background-color: #219653;
+}
+
+.promo-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Eventos */
+.events-container {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.event-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.event-item:hover {
+    transform: translateX(5px);
+}
+
+.event-date {
+    text-align: center;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-right: 20px;
+    min-width: 80px;
+}
+
+.event-day {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #e74c3c;
+}
+
+.event-month {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.event-details {
+    flex-grow: 1;
+}
+
+.event-title {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.event-info {
+    color: #7f8c8d;
+    margin-bottom: 5px;
+}
+
+.event-info i {
+    color: #e74c3c;
+    margin-right: 8px;
+}
+
+.event-btn {
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-weight: 600;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .event-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .event-date {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .event-actions {
+        margin-top: 15px;
+    }
+}
+.promo-img {
+  width: 100%;         
+  height: 200px;       
+  object-fit: cover;   
+}
+/* Estilos para el logo de login */
+.login-logo {
+    max-width: 120px;       /* Ancho máximo */
+    height: auto;           /* Altura automática para mantener proporciones */
+    border-radius: 50%;     /* Forma circular (opcional) */
+    border: 3px solid #fff; /* Borde blanco (opcional) */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave (opcional) */
+}
+
+/* Estilos para el encabezado del login */
+.login-card-header {
+    background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+    color: white;
+    padding: 1.5rem 1rem;
+    border-bottom: none;
+}
+
+.login-title {
+    color: white;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 0.5rem;
+}
+
+.login-subtitle {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0;
+}

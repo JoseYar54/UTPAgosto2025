@@ -1,0 +1,51 @@
+:root {
+    --color1: #2c0b17;
+    --color2: #80666e;
+    --color3: #bdbdbd;
+    --color4: #1d1d1d;
+    --color5: #ffffff;
+    --color6: #723659af;
+    --color7: #dea811;
+}
+
+span{
+    color: var(--color7);
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: var(--color1);
+    
+}
+
+.navbar .nav-link {
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: var(--color2);
+}
+
+
+footer{
+    background-color: var(--color4);
+}
+
+footer a {
+    color: var(--color3);
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--color2);
+}
+
+footer hr {
+    border-top: 2px solid var(--color2);
+}
+
+footer .footer-cabeza {
+    color: var(--color7);
+}

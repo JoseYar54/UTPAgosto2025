@@ -1,0 +1,83 @@
+:root {
+    --color1: #0d6efd;
+    --color2: #198754;
+    --color3: #2fa124;
+    --color4: #343a40;
+    --color5: #212529;
+    --color6: #ffffff;
+    --color7: #0d6efd;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: var(--color5);
+    height: 100vh;
+    position: fixed;
+    padding-top: 1rem;
+    overflow-y: auto; 
+    z-index: 2;
+    width: 16.6667%;
+}
+
+.sidebar .nav-link {
+    color: var(--color6);
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    transition: all 0.3s;
+}
+
+.sidebar .nav-link:hover {
+    color: var(--color7);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Main */
+main {
+    margin-left: 16.6667%;
+    padding: 1rem;
+    overflow-x: hidden;
+}
+
+/* Tarjetas */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.card h5 {
+    font-weight: bold;
+}
+
+/* Gráficos */
+.chart-container {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+    width: 100%; 
+    height: 100%; 
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    main {
+        margin-left: 0;
+        padding-top: 1rem;
+    }
+
+    .chart-container {
+        height: 300px;
+    }
+}
