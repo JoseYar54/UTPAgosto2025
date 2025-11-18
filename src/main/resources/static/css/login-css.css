@@ -1,0 +1,36 @@
+:root {
+    --vino: #612237;
+    --vino-oscuro: #5a152a;
+    --dorado: #D4AF37;
+    --marfil: #f7f4ed;
+    --negro-suave: #2C2C2C;
+    --verde-oliva: #556B2F;
+}
+
+.btn-primary {
+    background-color: var(--vino);
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: var(--dorado);
+    color: var(--negro-suave);
+    transform: scale(1.05);
+}
+
+main{
+    background-color: var(--marfil);
+}
+
+.login-section {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card {
+    max-width: 500px;
+    width: 100%;
+}
