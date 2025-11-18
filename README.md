@@ -1,7 +1,7 @@
 >> # La Taberna de Roly
 
 Proyecto personal de E-commerce desarrollado con Java, Spring Boot, Bootstrap, JavaScript, CSS y JSP, inspirado en una tienda de vinos y licores.
-Nació como parte de mis estudios universitarios en Ingeniería de Sistemas, y con el tiempo se convirtió en un proyecto de práctica para mejorar mis habilidades, arquitectura MVC y manejo de bases de datos.
+Nació como parte de mis estudios en Ingeniería de Sistemas y más adelante evolucionó en un proyecto de práctica para reforzar arquitectura MVC, manejo de datos y buenas prácticas en desarrollo backend. 
 --------------------------------
 
 > ## Sobre el proyecto
@@ -18,6 +18,8 @@ El proyecto combina varios conceptos del desarrollo con Java, como:
  - *JSP y controladores*
 
  - *Principios SOLID*
+
+ - *Separación por capas: Controller – Service – Repository – Model*
 --------------------------------
 
 > ## Tecnologías utilizadas
@@ -41,10 +43,13 @@ El proyecto combina varios conceptos del desarrollo con Java, como:
 ---------------------
 > ## Estructura del proyecto
 ```
-La-taberna/
+C:.
+├───.idea
+│   └───dictionaries
 ├───.idx
 ├───.mvn
 │   └───wrapper
+├───.vscode
 ├───src
 │   ├───main
 │   │   ├───java
@@ -52,11 +57,15 @@ La-taberna/
 │   │   │       └───example
 │   │   │           └───demo
 │   │   │               ├───Controller
+│   │   │               │   ├───Api
+│   │   │               │   └───Web
 │   │   │               ├───Model
 │   │   │               ├───Repository
 │   │   │               │   └───DAO
-│   │   │               └───Service
-│   │   │                   └───Impl
+│   │   │               ├───Service
+│   │   │               │   └───Impl
+│   │   │               ├───Tools
+│   │   │               └───WebConfig
 │   │   ├───resources
 │   │   │   └───static
 │   │   │       ├───css
@@ -70,31 +79,61 @@ La-taberna/
 │           └───com
 │               └───example
 │                   └───demo
+│                       └───TestServices
 └───target
     ├───classes
     │   ├───com
     │   │   └───example
     │   │       └───demo
     │   │           ├───Controller
+    │   │           │   ├───Api
+    │   │           │   └───Web
     │   │           ├───Model
     │   │           ├───Repository
     │   │           │   └───DAO
-    │   │           └───Service
-    │   │               └───Impl
+    │   │           ├───Service
+    │   │           │   └───Impl
+    │   │           ├───Tools
+    │   │           └───WebConfig
     │   └───static
     │       ├───css
     │       ├───img
     │       └───js
+    ├───demo-0.0.1-SNAPSHOT
+    │   ├───META-INF
+    │   └───WEB-INF
+    │       ├───classes
+    │       │   ├───com
+    │       │   │   └───example
+    │       │   │       └───demo
+    │       │   │           ├───Controller
+    │       │   │           │   ├───Api
+    │       │   │           │   └───Web
+    │       │   │           ├───Model
+    │       │   │           ├───Repository
+    │       │   │           │   └───DAO
+    │       │   │           ├───Service
+    │       │   │           │   └───Impl
+    │       │   │           ├───Tools
+    │       │   │           └───WebConfig
+    │       │   └───static
+    │       │       ├───css
+    │       │       ├───img
+    │       │       └───js
+    │       ├───lib
+    │       └───views
     ├───generated-sources
     │   └───annotations
     ├───generated-test-sources
     │   └───test-annotations
+    ├───maven-archiver
     ├───maven-status
     │   └───maven-compiler-plugin
     │       ├───compile
     │       │   └───default-compile
     │       └───testCompile
     │           └───default-testCompile
+    ├───surefire-reports
     └───test-classes
         └───com
             └───example
@@ -103,10 +142,12 @@ La-taberna/
 ---------------------
 > ## Estado del proyecto
 
-En desarrollo continuo. Cada nueva versión incluye mejoras, optimización del código y experimentos con nuevas funcionalidades para el ecosistema del proyecto. 
-
+Desarrollo finalizado.
+A lo largo del ciclo se realizaron mejoras, optimización del código y pruebas funcionales.
+El proyecto concluyó cumpliendo los objetivos: arquitectura MVC, conexión a base de datos, vistas JSP, capa de servicios y buenas prácticas en general.
+El docente supervisó continuamente el progreso, revisando entregables técnicos y el funcionamiento general del sistema. Agradecer su apoyo en el desarrollo de este proyecto.
 ------------------------
 > ## Datos generales:
-### Autor: De la Cruz Yarleque, José Raúl
+### Autor/Estudiante: De la Cruz Yarleque, José Raúl
 ### Curso: Diseño Web Integrado - Ciclo Agosto 2025
 ### Docente: Mg. Zarate Mendoza Roberto Geronimo 
